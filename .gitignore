@@ -1,0 +1,20 @@
+# development
+.idea/*
+.vscode/*
+venv/*
+*.egg-info/
+.mypy_cache
+
+# runtime data
+*.log
+__pycache__/*
+config.ini
+*.pyc
+
+# test data
+test/test_data/*
+
+# build data
+build
+dist
+plottotermial.egg-info
