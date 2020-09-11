@@ -63,3 +63,21 @@ x     │             ****           ****
        -1.0       -0.5       0.0        0.5        1.0   
                                 x               ×10^1 [m]
 ```
+
+## Setup
+Installing from source:
+
+```shell script
+git clone https://github.com/bitromortac/plottoterminal
+cd plottoterminal
+python3 -m pip install --user .
+```
+
+Installing from pypi:
+```shell script
+python3 -m pip install --user plottoterminal
+```
+
+## Command line usage
+To plot a file composed of rows of x and y data separated by whitespace,
+run the command `$ plottoterminal file.xy`.
